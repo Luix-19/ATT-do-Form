@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
+    <style>
+        div{ width: 300px;
+            background-color: aqua;
+        
+        }
+    </style>
+
+<h2><div>Cadastro de Cliente</div></h2>
+
+<form action="">
+    <fieldset>
+        <legend>Informe seus dados Pessoais</legend>
+  <label for="Nome">Nome Completo:</label>
+  <input type="text" id="Nome" name="Nome" value="" placeholder="Digite seu nome">
+  <label for="Cidade">Informe seu E-mail:</label>
+  <input type="text" id="E-mail" name="E-mail" value="" placeholder="exemplo@gmail.com">
+  <label for="Senha">Crie uma Senha:</label>
+  <input type="text" id="senha" value="">
+  <label for="date">Data de Nascimento:</label>
+  <input type="date" id="Nascimento" name="Nascimento">
+  <button type="submit">Enviar</button>
+</fieldset>
+</form> 
+
+
+<br>
+
+
+<form>
+    <fieldset>
+        <legend>Contato e Localização</legend>
+  <label for="Telefone">Telefone:</label>
+  <input type="texto" id="Telefone" name="Telefone" value="" placeholder="(00) 00000-0000">
+  <label for="Cidade">Cidade:</label>
+  <input type="texto" id="Cidade" name="Cidade" value="">
+  <label for="Estado">Estado:</label>
+  <select id="Estado" name="Estado">
+    <option value="">Selecione...</option>
+    <option value="PE">Pernambuco</option>
+    <option value="SP">São Paulo</option>
+    <option value="RJ">Rio de Janeiro</option>
+    <option value="AM">Amazonas</option>
+    <option value="AL">Alagoas</option>
+    <option value="MG">Minas Gerais</option>
+  </select>
+    </fieldset>
+</form> 
+
+
+<br>
+
+
+<form>
+    <fieldset>
+    <legend>Preferências de Serviço</legend>
+    <p>Gostaria de receber notificações via E-mail?</p>
+    <input type="radio" id="sim" name="escolha" value="">
+    <label for="sim">Sim</label>
+    <input type="radio" id="não" name="escolha" value="">
+    <label for="não">Não</label>
+    <p>Selecione alguns de nossos serviços que mais te chama atenção</p>
+    <input type="checkbox" id="Escolha1" name="Escolha1" value="">
+    <label for="Escolha1">Desenvolvimento Web</label>
+    <input type="checkbox" id="Escolha2" name="Escolha2" value="">
+    <label for="Escolha1">Desenvolvimento de jogos</label>
+    <input type="checkbox" id="Escolha3" name="Escolha3" value="">
+    <label for="Escolha1">Criação de Planilhas</label>
+    <input type="checkbox" id="Escolha4" name="Escolha4" value="">
+    <label for="Escolha1">Design Digital</label>
+    </fieldset>
+</form>
+
+
+<br>
+
+
+<form>
+    <p>Comentários</p>
+    <p>Deixe sua sugestão</p>
+    <textarea id="sugestão" name="sugestão" rows="5" cols="40" placeholder="Escreva sua sugestão aqui"></textarea><br>
+        <button type="submit">Enviar</button>
+        <button type="=reset">Limpar</button>
+</form>
+</html>
+</body>
